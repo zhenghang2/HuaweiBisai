@@ -13,7 +13,7 @@ import java.util.Map;
 import javax.xml.crypto.Data;
 
 public class Predict {
-	public static int[] cpu_type = {0,1,1,1,2,2,2,4,4,4,8,8,8,16,16,16,32,32,32};
+	public static int[] cpu_type = {0,1,1,1,2,2,2,4,4,4,8,8,8,16,16,16,32,32,33};
 	public static int[] mem_type = {0,1,2,4,2,4,8,4,8,16,8,16,32,16,32,64,32,64,128};
 	//虚拟机类型列表
 	public static ArrayList<String> flavor_type_list = new ArrayList<String>();//需要预测的虚拟机类型列表
